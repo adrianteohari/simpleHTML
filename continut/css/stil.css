@@ -1,0 +1,69 @@
+header {
+	background-color:#e3e3e3;
+	height:100px;
+	width:auto;
+	text-align:center;
+}
+nav {
+	background-color:gray;
+	text-align:center;
+}
+aside {
+	text-align:left;
+	width:10%;
+	padding-left: 15px;
+  	margin-left: 15px;
+	float:left;
+	background-color:green;
+}
+a.button {
+	background-color: white;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button:hover {opacity: 1}
+body {
+	text-align:center;
+}
+body.left {
+	text-align:left;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+#tabel{
+	width:auto;
+}
+
+label{
+
+    clear: left;
+    width: 250px;
+    text-align: right;
+	float:left;
+}
+input {
+
+  float:left;
+  box-sizing: border-box;
+
+}
+
+select{
+	float:left;
+}
+
+textarea{
+	float:left;
+}

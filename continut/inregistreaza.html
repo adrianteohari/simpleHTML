@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ro">
+	<head>
+		<link rel="stylesheet" href="css/stil.css">
+		<title>Înregistrare</title>
+	</head>
+	<body>
+		<header>
+			<h1>Înregistrare</h1>
+		</header>
+		<nav>
+			<a href="index.html" class="button">Acasă</a>
+			<a href="video.html" class="button">Video</a>
+			<a href="inregistreaza.html" class="button">Înregistrează-te</a>
+			<a href="despre_html.html"class="button">Despre</a>
+			<a href="desen.html" class="button">Desen</a>
+			<a href="invat_js.html" class="button">JS</a>
+		</nav>
+		<main>
+		<form id="Inregistrare">
+		<fieldset>
+		    <label for="numeutilizator">Nume utilizator: </label>
+		    <input type="text" id="numeutilizator" name="numeutilizator" value="nume utilizator"><br>
+		    <label for="parola">Parola: </label>
+		    <input type="password" id="parola" name="parola" value="***"><br>
+		    <label for="nume">Nume: </label>
+		    <input type="text" id="nume" name="nume" value="nume"><br>
+		    <label for="prenume">Prenume: </label>
+		    <input type="text" id="prenume" name="prenume" value="prenume"><br>
+		    <label for="email">Email: </label>
+		    <input type="email" id="email" name="email" value="email@email.com"><br>
+		    <label for="telefon">Telefon: </label>
+		    <input type="tel" id="telefon" name="telefon"><br>
+		</fieldset>
+		<fieldset>
+		    <label for="sex">Sexul: </label>
+		    <select id="sex" name="sex">
+		        <option value="m">masculin</option>
+		        <option value="f">feminin</option>
+		    </select><br>
+		    <label for="mancare">Mâncare preferată:</label>
+			<input list="mancaruri" name="mancare" id="mancare">
+			<datalist id="mancaruri">
+			  <option value="Peşte">
+			  <option value="Pui">
+			  <option value="Friptură">
+			  <option value="Burger">
+			  <option value="Cartofi prăjiţi">
+			</datalist><br>
+		    <label for="culoare">Culoarea preferată:</label>
+		    <input type="color" id="culoare" name="culoare" value="#e66465"><br>
+		    <label for="datanastere">Data naşterii:</label>
+		    <input type="date" id="datanastere" name="datanastere"><br>
+		    <label for="oranastere">Ora naşterii:</label>
+		    <input type="time" id="oranastere" name="oranastere"><br>
+			<label for="varsta">Vârsta:</label>
+  			<input type="range" id="varsta" name="varsta" min="1" max="100"><br>
+			  <label for="pp">Pagina personală:</label>
+			  <input type="url" id="pp" name="pp"><br>
+			  <label>Descriere:</label>
+		    <textarea name="descriere" form="Inregistrare" style="overflow:scroll;"></textarea><br>
+		    
+		</fieldset>
+			<input type="submit" value="Inregistreaza" disabled>
+        </form>
+	</main>
+	</body>
+</html>
+

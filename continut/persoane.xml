@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE persoane [
+<!ELEMENT persoane (persoana)>
+<!ELEMENT persoana (informatii,contact,adresa)>
+<!ELEMENT informatii (nume,pernume,varsta,gen)>
+<!ELEMENT nume (#PCDATA)>
+<!ELEMENT prenume (#PCDATA)>
+<!ELEMENT varsta (#PCDATA)>
+<!ELEMENT gen (#PCDATA)>
+<!ELEMENT contact (email,telefon)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telefon (#PCDATA)>
+<!ELEMENT adresa (strada,numar,localiate,judet,tara)>
+<!ELEMENT strada (#PCDATA)>
+<!ELEMENT numar (#PCDATA)>
+<!ELEMENT localitate (#PCDATA)>
+<!ELEMENT judet (#PCDATA)>
+<!ELEMENT tara (#PCDATA)>
+]>
+<persoane>
+    <persoana id="1">
+        <informatii>
+            <nume>Popescu</nume>
+            <prenume>Ion</prenume>
+            <varsta>23</varsta>
+            <gen>masculin</gen>
+        </informatii>
+        <contact>
+            <email>email@email.com</email>
+            <telefon>0712345678</telefon>
+        </contact>
+        <adresa>
+            <strada>Tudor Vladimirescu</strada>
+            <numar>6</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+    </persoana>
+    <persoana id="2">
+        <informatii>
+            <nume>Maria</nume>
+            <prenume>Ana</prenume>
+            <varsta>22</varsta>
+            <gen>feminin</gen>
+        </informatii>
+        <contact>
+            <email>email2@email.com</email>
+            <telefon>0712345687</telefon>
+        </contact>
+        <adresa>
+            <strada>StradaA</strada>
+            <numar>2</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+    </persoana>
+    <persoana id="3">
+        <informatii>
+            <nume>Cosmin</nume>
+            <prenume>Mihai</prenume>
+            <varsta>21</varsta>
+            <gen>masculin</gen>
+        </informatii>
+        <contact>
+            <email>email3@email.com</email>
+            <telefon>0712344687</telefon>
+        </contact>
+        <adresa>
+            <strada>StradaB</strada>
+            <numar>25</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+    </persoana>
+    <persoana id="4">
+        <informatii>
+            <nume>Mircea</nume>
+            <prenume>Marcel</prenume>
+            <varsta>22</varsta>
+            <gen>masculin</gen>
+        </informatii>
+        <contact>
+            <email>email3@email.com</email>
+            <telefon>0712245687</telefon>
+        </contact>
+        <adresa>
+            <strada>StradaC</strada>
+            <numar>3</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+    </persoana>
+    <persoana id="5">
+        <informatii>
+            <nume>Radu</nume>
+            <prenume>Ion</prenume>
+            <varsta>22</varsta>
+            <gen>masculin</gen>
+        </informatii>
+        <contact>
+            <email>email3@email.com</email>
+            <telefon>0711345687</telefon>
+        </contact>
+        <adresa>
+            <strada>StradaD</strada>
+            <numar>45</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+    </persoana>
+</persoane>

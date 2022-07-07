@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+    <head>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+            }
+        </style>
+        <title>Programare Web</title>
+    </head>
+    <body>
+        <h1>Programare Web</h1>
+        <p>
+        <h2>Limbajul HTML</h2>
+        <b>HTML (HyperText Markup Language)</b> este un <i>limbaj de marcare</i> utilizat pentru a crea pagini web <p>
+        Un exemplu de cod html il gasiti in imaginea urmatoare care se afla la adresa <a href="https://upload.wikimedia.org/wikipedia/commons/e/e4/HTML_logo.png">https://upload.wikimedia.org/wikipedia/commons/e/e4/HTML_logo.png</a><br>
+        Imaginea are atributul <code>height</code> de valoare 147.<p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/HTML_logo.png" alt="html logo">
+        <p>
+        <b><i>Tag-urile</i></b> html cele mai utilizate in realizarea tabelelor sunt:
+        <table>
+            <tr><td>table</td><td>defineste un tabel</td></tr>
+            <tr><td>tr</td><td>un rand intr-un tabel</td></tr>
+            <tr><td>td</td><td>o celula intr-un tabel</td></tr>
+        </table>
+        <b>Observatie: </b> Pentru a pune un contur unui tabel se poate (dar nu se recomanda) sa se puna atributul <code>border="1"</code>.<br>
+        La validare va da eroarea: <i> The border attribute on the table element is obsolete.</i><p>
+        
+        Formularele se pot crea cu ajutorul tag-ului <code>form</code> care poate contine tag-urile <code>input, textarea, label, select, option, button</code>.<br>
+        Pentru mai multe detalii consultati cursul sau tutorialul <a href="https://www.w3schools.com/html/html_forms.asp">HTML Forms and Inputs</a> de la adresa <a href="https://www.w3schools.com/html/html_forms.asp">https://www.w3schools.com/html/html_forms.asp</a><p>
+
+        Un exemplu de formular este urmatorul:
+        <form id="form">
+            <label for="nume">Nume: </label>
+            <input type="text" id="nume" name="nume" value="nume"><br>
+            <label for="prenume">Prenume: </label>
+            <input type="text" id="prenume" name="prenume" value="prenume"><br>
+            <label for="parola">Parola: </label>
+            <input type="password" id="parola" name="parola" value="***"><br>
+            <label for="culoare">Culoarea preferata: </label>
+            <select id="culoare" name="culoare">
+                <option value="rosu">rosu</option>
+                <option value="albastru">albastru</option>
+                <option value="verde">verde</option>
+            </select><br>
+            <label>Descriere:</label>
+            <textarea name="descriere" form="form" style="overflow:scroll;"></textarea><br>
+            <input type="checkbox" id="conditii" name="conditii" value="da">
+            <label for="conditii">Sunt de acord cu conditiile</label><p>
+            <input type="submit" value="Inregistreaza">
+        </form><p>
+        Pentru a crea liste se pot folosi tag-urile:<p>
+        <ol type="i">
+            <li>ul - lista neordonata</li>
+            <li>ol - lista ordonata</li>
+            <li>li - item din lista</li>
+            <li>dl - lista cu descrieri</li>
+            <li>dt - termen dintr-o lista cu descrieri</li>
+            <li>dd - descrierea dintr-o lista cu descrieri</li>
+        </ol><p>
+        Pentru a insera un document HTML în altul se poate folosi tag-ul <code>&lt;iframe&gt;</code>.<br>
+        Astfel, exemplul de mai jos inserează conţinutul de la adresa <a href="https://html.spec.whatwg.org/multipage/">https://html.spec.whatwg.org/multipage/</a><br>
+        <iframe src="https://html.spec.whatwg.org/multipage/" height="200" width="900" title="HTML standard"></iframe><br>
+        <hr><br>
+        &#169;. 2020. Programare web
+    </body>
+</html>
